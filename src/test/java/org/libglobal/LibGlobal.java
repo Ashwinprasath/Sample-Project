@@ -422,6 +422,11 @@ public class LibGlobal {
 
 		return value;
 	}
+	
+	public void sysout() {
+		System.out.println("Achu work done");
+	}
+	
 }
 
 	

@@ -31,6 +31,14 @@ public class Day1_Task extends LibGlobal {
 		}
 		Set s = new LinkedHashSet<String>();
 		s.addAll(l);
+		System.out.println(s.size());
 		System.out.println(s);
+		
+		List<WebElement> priceList = driver.findElements(By.xpath("//span[@class='a-price-whole']"));
+		for (WebElement y : priceList) {
+			String price= y.getText();
+			System.out.println(price);
+		}
+		
 	}
 }
