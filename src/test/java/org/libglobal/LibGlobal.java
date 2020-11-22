@@ -422,6 +422,10 @@ public class LibGlobal {
 
 		return value;
 	}
+	
+	private void sysout() {
+		System.out.println("Prasath Work is done");
+	}
 }
 
 	
